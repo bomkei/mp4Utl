@@ -1,0 +1,61 @@
+﻿<Window x:Class="mp4Utl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mp4Utl"
+        mc:Ignorable="d"
+        Title="mp4Utl" Height="768" Width="1366" FontFamily="MS UI Gothic">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" VerticalAlignment="Top">
+            <MenuItem Header="ファイル(_F)">
+                <MenuItem Header="プロジェクトを新規作成"/>
+                <MenuItem Header="プロジェクトを開く"/>
+                <MenuItem Header="プロジェクトを上書き保存"/>
+                <MenuItem Header="プロジェクトに名前を付けて保存"/>
+                <Separator/>
+                <MenuItem Header="_MP4出力(動画ファイル)">
+                    <MenuItem Header="透過あり"/>
+                    <MenuItem Header="透過なし"/>
+                </MenuItem>
+                <MenuItem Header="_WAV出力(音声ファイル)"/>
+                <MenuItem Header="PNG出力(現在のフレーム)">
+                    <MenuItem Header="透過あり"/>
+                    <MenuItem Header="透過なし"/>
+                </MenuItem>
+                <MenuItem Header="_PNG出力(連番)">
+                    <MenuItem Header="透過あり"/>
+                    <MenuItem Header="透過なし"/>
+                </MenuItem>
+                <MenuItem Header="_GIF出力(アニメーション画像)"/>
+                <MenuItem Header="カスタム設定出力"/>
+                <MenuItem Header="出力中断"/>
+                <Separator/>
+                <MenuItem Header="最近使ったファイル"/>
+                <Separator/>
+                <MenuItem Header="環境設定"/>
+                <Separator/>
+                <MenuItem Header="ソフトウェアの終了" Click="MenuItem_Click_1" />
+            </MenuItem>
+            <MenuItem Header="ヘルプ(_H)">
+                <MenuItem Header="フィードバックの送信"/>
+                <Separator/>
+                <MenuItem Header="デスクトップにショートカットを作成">
+                    <MenuItem Header="mp4Utl"/>
+                    <MenuItem Header="新規作成"/>
+                </MenuItem>
+                <MenuItem Header="プロジェクトファイル(.tdlp)の関連付け"/>
+                <MenuItem Header="GitHubへのリンク"/>
+                <MenuItem Header="アップデートの確認(GitHubと通信します)"/>
+                <Separator/>
+                <MenuItem Header="バージョン情報" Click="MenuItem_Click_2"/>
+                <MenuItem Header="ファイル情報"/>
+                <MenuItem Header="プラグイン情報"/>
+            </MenuItem>
+            <Grid/>
+        </Menu>
+        <Grid x:Name="アイテムプロパティ" Width="410" HorizontalAlignment="Right">
+            <TextBlock x:Name="タイトル" HorizontalAlignment="Center" TextWrapping="NoWrap" Text="アイテムプロパティ" VerticalAlignment="Top" TextAlignment="Center" FontSize="20"/>
+        </Grid>
+    </DockPanel>
+</Window>
