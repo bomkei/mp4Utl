@@ -27,15 +27,15 @@ namespace mp4Utl
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
             { 
-            MessageBoxResult Result = MessageBox.Show("ã‘‚«•Û‘¶‚Í¤‚«‚¿‚ñ‚ÆÏ‚Ü‚¹‚Ü‚µ‚½‚©?\r\n¦•Û‘¶‚µ‚Ä‚¢‚Ä‚à¤‚µ‚Ä‚¢‚È‚­‚Ä‚à¤ÅIƒ`ƒFƒbƒN‚ğ‚Ê‚©‚µ‚Ä‚Í‚¢‚¯‚Ü‚¹‚ñ!!", "Šm”F", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            MessageBoxResult Result = MessageBox.Show("ä¸Šæ›¸ãä¿å­˜ã¯ï½¤ãã¡ã‚“ã¨æ¸ˆã¾ã›ã¾ã—ãŸã‹?\r\nâ€»ä¿å­˜ã—ã¦ã„ã¦ã‚‚ï½¤ã—ã¦ã„ãªãã¦ã‚‚ï½¤æœ€çµ‚ãƒã‚§ãƒƒã‚¯ã‚’ã¬ã‹ã—ã¦ã¯ã„ã‘ã¾ã›ã‚“!!", "ç¢ºèª", MessageBoxButton.YesNo, MessageBoxImage.Question);
 
                 if(Result == MessageBoxResult.Yes) 
                 {
-                    MessageBox.Show("‚Å‚Í¤‚Ü‚½‰ï‚¦‚é‚Ì‚ğŠy‚µ‚İ‚É‘Ò‚Á‚Ä‚Ü‚·‚Ë!\r\ncc‚Ö‚ñ‚½‚¢‚Ó‚µ‚ñ‚µ‚á‚³‚ñô", "Šm”F");
+                    MessageBox.Show("ã§ã¯ï½¤ã¾ãŸä¼šãˆã‚‹ã®ã‚’æ¥½ã—ã¿ã«å¾…ã£ã¦ã¾ã™ã­!\r\nâ€¦â€¦ã¸ã‚“ãŸã„ãµã—ã‚“ã—ã‚ƒã•ã‚“â™ª", "ç¢ºèª");
                     this.Close();
                 } else if(Result == MessageBoxResult.No)
                 {
-                    MessageBox.Show("‚Ü‚Á‚½‚­‚à‚¤c\r\n‚±‚Ü‚ß‚È•Û‘¶‚Í¤‚Æ‚Ä‚à‘å–‚Å‚·!!\r\n‚æ`‚­ŠÌ‚É–Á‚¶‚Ä‚¨‚¢‚Ä‚­‚¾‚³‚¢‚Ë!!!!", "Šm”F");
+                    MessageBox.Show("ã¾ã£ãŸãã‚‚ã†â€¦\r\nã“ã¾ã‚ãªä¿å­˜ã¯ï½¤ã¨ã¦ã‚‚å¤§äº‹ã§ã™!!\r\nã‚ˆï½ãè‚ã«éŠ˜ã˜ã¦ãŠã„ã¦ãã ã•ã„ã­!!!!", "ç¢ºèª");
                 }
             }
 
@@ -44,7 +44,7 @@ namespace mp4Utl
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("ƒo[ƒWƒ‡ƒ“Fƒ¿4\r\nìÒF‚­‚é‚İ”’‰H\r\n\r\n‚±‚Ìƒ\ƒtƒgƒEƒFƒA‚Í [CC BY-NC-SA 4.0] ƒ‰ƒCƒZƒ“ƒX‚ÉŠî‚Ã‚«”z•z‚³‚ê‚Ä‚¢‚Ü‚·¡‚½‚Ô‚ñ‚Ë");
+            MessageBox.Show("ãƒãƒ¼ã‚¸ãƒ§ãƒ³ï¼šÎ±4\r\nä½œè€…ï¼šãã‚‹ã¿ç™½ç¾½\r\n\r\nã“ã®ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã¯ [GNU Lesser General Public License] ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã«åŸºã¥ãé…å¸ƒã•ã‚Œã¦ã„ã¾ã™ï½¡ãŸã¶ã‚“ã­");
         }
     }
 }
