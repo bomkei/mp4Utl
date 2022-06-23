@@ -44,7 +44,7 @@ namespace mp4Utl
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("バージョン：α4\r\n作者：くるみ白羽\r\n\r\nこのソフトウェアは [GNU Lesser General Public License] ライセンスに基づき配布されています｡たぶんね");
+            MessageBox.Show("バージョン：α4\r\n作者：くるみ白羽\r\n\r\nこのソフトウェアは [GNU Lesser General Public License] ライセンスに基づき配布されています｡", "バージョン情報");
         }
     }
 }
